@@ -22,7 +22,7 @@
         }
 
         body{
-            background-color: #FAFFAA;
+            background-color: #FDFFCE;
             margin: 0px;
         }
 
@@ -33,6 +33,10 @@
 
         .main2{
             color: blue;
+        }
+
+        .text{
+            text-decoration: underline;
         }
        
 
@@ -468,10 +472,305 @@
                 </td>
             </tr>
 
-       
-    </tbody>
+            <tr>
+                <td></td>
 
-</table>
+                <td>
+                    <b>Country</b>
+                </td>
+
+                <td>
+                    <input type="text" name="" id="" placeholder="--Please select">
+                    <select id="cars" name="cars">
+                        <option value="volvo"></option>
+                        <option value="saab"></option>
+                        <option value="fiat"></option>
+                        <option value="audi"></option>
+                      </select>  
+                </td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+
+                <td>
+                    <b>Zip</b>
+                </td>
+
+                <td>
+                    <input type="text" name="" id="" style="width: 40px;">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> <input type="checkbox" id="" name=""></td>
+
+                <td colspan="2">
+                    <b>10.if you desire to update your other address, given required details & <span class="text">Submit proof of other address also</span></b>
+                </td>
+            </tr>
+
+            <tr>
+                <td> <input type="checkbox" id="" name=""></td>
+
+                <td>
+                    <span class="main">*</span><b>11. Telephone No.</b><br>(country code is compulsory)
+                </td>
+
+                <td>
+                    <table style="border: 1px solid black;border-collapse: collapse;width: 100%;">
+                        <tr style="border: 1px solid black;border-collapse: collapse;">
+                            <td style="border: 1px solid black;border-collapse: collapse;" colspan="3">Country code/SD Code
+                                <br>
+                                <select name="PAN_TEL_CC" id="selectCountryCodeForTelNum">
+                                    <option value="-1">-- Please select --</option>
+                                    <option value="54">ARGENTINA (54)</option>
+                                    <option value="A61">AUSTRALIA (61)</option>
+                                    <option value="43">AUSTRIA (43)</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="1"><input type="radio"><label>Mobile No</label></td>
+                            <td colspan="1"><input type="radio"><label>Telephone No</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="1"><input type="text"><br><label>Area/STD Code</label></td>
+                            <td colspan="1"><input type="text"><br><label>Telephone No/Mobile No</label></td>
+                        </tr>
+                    </table>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+
+                <td>
+                    <b>E-mail id</b>
+                </td>
+
+                <td>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td><label>In case of citizen of India,then</label></td>
+                <td><input type="radio"><label>AADHAR</label><input type="radio"><label>EID</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><span class="main">*</span><label class="labelBold">12.AADHAAR Number:</label></td>
+                <td colspan="2"><input type="text">
+                    <span style="color: #3837fa;font-weight: 600;">
+                        <br>In Case of AADHAAR number is provided <br>
+                        then proof of AADHAAR along with supporting documents is to be submitted to NDSK</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><span class="main">*</span><label>Name as per AADHAAR letter
+                        <br>
+                        or
+                        <br>
+                        as per the enrollment ID of Aadhaar Application Form
+                    </label></td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+                <td><label class="labelBold">13.GSTN</label></td>
+                <td><input type="text"></td>
+                <td rowspan="6"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td colspan="2"><label class="labelBold">14.Mention other Permenant Account Numbers(PAN'S) if any
+                        inadvertently allocated to you to submit proof of surrendered PAN(s) along with the
+                        application</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label class="labelBold">PAN1</label>
+                    <input type="text">
+                </td>
+                <td><label class="labelBold">PAN2</label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label class="labelBold">PAN3</label>
+                    <input type="text">
+                </td>
+                <td><label class="labelBold">PAN4</label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">15.Verification</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2">I/We <input type="text"> the applicant is the capacity of
+                    <select name="verify">
+                        <option value="">-- Please Select --
+                        </option>
+                        <option value="04"> Authorized Signatory
+                        </option>
+                    </select> do hereby declare that what is stated above is true <br>
+                    the best of my information and belief <br>
+                    i have enclosed <input type="text">(number of documents) in support of proposed changes/corrections
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"><label>Place</label><input type="text"></td>
+            </tr>
+
+
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">&nbsp; &nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DD-MM-YYYY</label>
+                    <br>verified today the 03-07-2020
+                </td>
+                <td rowspan="8"></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td colspan="2">I/We have enclosed <br>
+                    <select name="idy" style="white-space: nowrap">
+                        <option value="" selected="">-- Please select --</option>
+                        <option value="21">Copy of agreement</option>
+                        <option value="22">Copy of certificate of registration number issued by Charity Commissioner
+                        </option>
+                        <option value="23">Copy of certificate of registration number issued by Registrar of
+                            Co-operative societies</option>
+                        <option value="24">Copy of certificate of registration number issued by any other competent
+                            authority</option>
+                        <option value="25">Any other document originating from any Central or State Government
+                            Department establishing identity of such person</option>
+                    </select> as proof of identity,<select name="PAN_PRF_ADDR" id="selectAccordingToCountryPOA"
+                        style="white-space: nowrap">
+                        <option value="" selected="">-- Please select --</option>
+                        <option value="20">Copy of agreement</option>
+                        <option value="21">Copy of certificate of registration number issued by Charity Commissioner
+                        </option>
+                        <option value="22">Copy of certificate of registration number issued by Registrar of
+                            Co-operative societies</option>
+                        <option value="23">Copy of certificate of registration number issued by any other competent
+                            authority</option>
+                        <option value="24">Any other document originating from any Central or State Government
+                            Department establishing address of such person</option>
+                    </select> as proof of address, <br>
+                    <select name="PAN_PRF_PAN">
+                        <option value="">--Please Select--
+                        </option>
+                        <option value="1"> Copy of PAN card
+                        </option>
+                        <option value="2"> Copy of PAN allotment letter
+                        </option>
+                        <option value="3"> No document
+                        </option>
+                    </select> as proof of birth and <select name="PAN_PRF_PAN">
+                        <option value="">--Please Select--
+                        </option>
+                        <option value="1"> Copy of PAN card
+                        </option>
+                        <option value="2"> Copy of PAN allotment letter
+                        </option>
+                        <option value="3"> No document
+                        </option>
+                    </select> as proof of PAN allocated
+                </td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">Whether you wish to have</label> &nbsp;<input
+                        type="radio"><label for="">Physical PAN Card & e-PAN card</label>&nbsp;&nbsp;&nbsp;<input
+                        type="radio"><label for="">only e-PAN card</label> &nbsp;&nbsp; <b>Fees Applicable</b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">Other Details</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">1.Depository Account Details</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">DP ID:</label><input type="text">&nbsp;&nbsp;<label
+                        class="labelBold">Client ID:</label><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><label class="labelBold">2.Payment Details</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td colspan="2"><label class="labelBold">Online Details</label></td>
+            </tr>
+
+        </tbody>
+        </table>
+        
+    <div class="contentBottom">
+        <div class="row">
+            For Paperless PAN Application&nbsp;&nbsp; <input type="radio"><label for="">Yes</label><input
+                type="radio"><label for="">No</label>
+        </div>
+        <div class="row">
+            <div class="column"><input type="radio"><label class="labelBold">DSC</label>&nbsp;&nbsp;<select
+                    name="USER_TYPE" id="DSCDrop" style="WIDTH: 200px; HEIGHT: 22px">
+                    <option value="AP">Authorized Signatory</option>
+                </select> &nbsp;<a style="color: #800000;"
+                    href="https://tin.tin.nsdl.com/pan/InstructionDSC.html">Guidlines for DSC User</a></div>
+            <div class="column"><input type="file">
+                <label for="">Upload Signature</label>
+                <input type="file">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">Upload Documents</div>
+            <div class="column"><input type="file"></div>
+        </div>
+        <div class="row">
+            <div class="column">ALREADY UPLOADED PHOTO</div>
+            <div class="column">&nbsp;&nbsp;&nbsp;<input type="text"></div>
+        </div>
+        <div class="row">
+            <div class="column">ALREADY UPLOADED SIGNATURES</div>
+            <div class="column">&nbsp;&nbsp;&nbsp;<input type="text"></div>
+        </div>
+        <div class="row">
+            <div class="column">ALREADY UPLOADED Documents</div>
+            <div class="column">&nbsp;&nbsp;&nbsp;<textarea rows="5" cols="33"></textarea></div>
+        </div>
+        <div class="row">
+            <div class="column"></div>
+            <div class="column">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"></div>
+        </div>
+    </div>
+
+
+       
+
     
 
     
